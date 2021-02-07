@@ -68,7 +68,7 @@ $ go test -bench=.
 | Xorm       | 3539050, 3977, 89         | 3468434, 3975, 89         | 3440560, 3975, 89         | 3482681.33, 3975.67, 89     |
 | Xorm(raw)  | 3518896, 2304, 44         | 3997685, 2305, 44         | 4397684, 2306, 44         | 3971421.67, 2305, 44        |
 
-> Go-pg < Go-pg(raw) < Gorm(raw) < PGX < Xorm > Xorm(raw) < Gorm
+> Go-pg < Go-pg(raw) < Gorm(raw) < PGX < Xorm < Xorm(raw) < Gorm
 
 - Benchmark Update
 
